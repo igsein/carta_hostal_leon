@@ -1,1 +1,0 @@
-# carta_hostal_leon
