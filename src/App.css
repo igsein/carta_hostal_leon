@@ -43,3 +43,16 @@ h1{
   font-style: italic;
   font-weight: bolder;
 }
+
+.logo{
+  margin-top: 50%;
+  position: fixed;
+margin-left: 5%;
+  width: 90%;
+  opacity: 0.1;
+}
+
+span{
+  font-style: italic;
+  font-weight: bolder;
+}

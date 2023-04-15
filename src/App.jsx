@@ -1,10 +1,12 @@
 import { useState, useEffect } from "react";
 import carta from "./carta.json";
 import alergenos from "./alergenos/alerjenos.json";
+import logo from "./assets/logo3.png"
 import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);
+  const [viewAddText,setViewAddText] = useState(false)
   const [typesProds, setTypesProds] = useState("");
 
   console.log(alergenos);
@@ -62,8 +64,14 @@ function App() {
       });
     }
   };
+
+  const additionalText = () =>{
+
+
+  }
   return (
-    <div>
+    <div  >
+      <img src={logo} className="logo" />
       <table>
         {typesProds
           ? typesProds.map((prods, i) => {
@@ -78,12 +86,29 @@ function App() {
                     ? carta
                         .filter((cart) => cart.TYPE === prods)
                         .map((prod, i) => {
+                         const tipo = prod.TYPE
+                         console.log(prod.DESCRIPTION)
                           return (
                             <tr key={i}>
-                              <td>
+
+  
+
+  {!prod.DESCRIPTION ? <td>
+                                {tipo==='PLATOS COMBINADOS'? `${i +1}. ` : ""}
                                 {capitalizeWord(prod.NAME)}
                                 {searchAlergenos(prod.ALERG)}
-                              </td>
+                              </td> :                              <td>
+                                
+                              {tipo==='PLATOS COMBINADOS'? `${i +1}. ` : ""}
+                                {capitalizeWord(prod.NAME)}
+                                {searchAlergenos(prod.ALERG)}
+                                <span>  {capitalizeWord(prod.DESCRIPTION)}</span>
+                              
+ 
+                              </td> }
+
+
+
                               <td></td>
                               <td className="price">
                                 {addZeroes(prod.PRICE)}
@@ -93,10 +118,17 @@ function App() {
                           );
                         })
                     : ""}
+                   
+                                      <tr key={i}>
+                    <td>
+                      <h1> {prods.TYPE==='INFO_ADD' ? prods.NAME : ""}</h1>
+                    </td>
+                  </tr>
                 </>
               );
             })
           : ""}
+
       </table>
     </div>
   );
