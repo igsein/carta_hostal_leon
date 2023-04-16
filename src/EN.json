@@ -206,6 +206,23 @@
       "TYPE": "SNACK",
       "ALERG": [7,9]
     },
+
+
+    {
+      "NAME": "Increase of €0.50 for what you want to add",
+      "PRICE": "",
+      "TYPE": "SNACK",
+      "STYLE": "incremento"
+ 
+
+ 
+ 
+
+    },
+
+
+
+
     {
       "NAME": "Normal (york ham and cheese)",
       "PRICE": 3.50,

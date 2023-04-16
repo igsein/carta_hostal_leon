@@ -204,9 +204,26 @@
       "NAME": "SERRANITO(LOMO,QUESO,TOMATE,PIMIENTOS Y JAMÓN)",
       "PRICE": 6,
       "TYPE": "BOCADILLOS",
-      "ALERG": [7,9],
-"DESCRIPTION": "              INCREMENTO DE 0,50€ POR LO QUE QUIERA AÑADIR"
+      "ALERG": [7,9]
+ 
     },
+
+
+
+    {
+      "NAME": "INCREMENTO DE 0,50€ POR LO QUE QUIERA AÑADIR",
+      "PRICE": "",
+      "TYPE": "BOCADILLOS",
+      "STYLE": "incremento"
+ 
+
+ 
+ 
+
+    },
+
+
+
     {
       "NAME": "NORMAL(JAMÓN YORK Y QUESO)",
       "PRICE": 3.50,
