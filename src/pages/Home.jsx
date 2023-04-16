@@ -13,12 +13,20 @@ const Home = () => {
   
   {!intl?
     
-    <div className='home-container slide-top'>
-    <img src={Logo} className="logo-home"  />
+    <div className='home-container'>
+ 
+ <div className='title-home'>
+ <p className='p-title'>HOSTAL-BAR LEÓN</p>
+ <p className='p-title'>(TORREORGAZ)</p>
+ <p> <h6>Telf. 927 20 50 94</h6></p>
+ <img src={Logo} className="logo-home"  />
+
     <div className='title-restaurant'>
 
-<p>La cruz, nº13- Torreorgaz</p>
-<p>Telf. 927 20 50 94</p>
+ 
+
+ </div>
+
 
         </div>
 
