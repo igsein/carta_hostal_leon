@@ -54,7 +54,7 @@
     },
     {
       "NAME": "PATÉ",
-      "PRICE": 1.10,
+      "PRICE": 1.20,
       "TYPE": "TOSTADAS",
       "ALERG": [7]
 
@@ -75,7 +75,7 @@
     },
     {
       "NAME": "TOMATE Y ACEITE",
-      "PRICE": 1.10,
+      "PRICE": 1.20,
       "TYPE": "TOSTADAS",
       "ALERG": [7]
 
@@ -91,8 +91,19 @@
       "NAME": "REVUELTO DE PATATAS CON HUEVO",
       "PRICE": 2,
       "TYPE": "TOSTADAS",
-      "ALERG": [7,8],
-      "DESCRIPTION": "INCREMENTO DE 0,50€ POR LO QUE QUIERA AÑADIR"
+      "ALERG": [7,8]
+ 
+
+    },
+    {
+      "NAME": "INCREMENTO DE 0,50€ POR LO QUE QUIERA AÑADIR",
+      "PRICE": "",
+      "TYPE": "TOSTADAS",
+      "STYLE": "incremento"
+ 
+
+ 
+ 
 
     },
 
@@ -212,8 +223,19 @@
       "NAME": "ESPECIAL(JAMÓN YORK,QUESO , LECHUGA, TOMATE, BACON Y HUEVO)",
       "PRICE": 6,
       "TYPE": "SANDWICHES",
-      "ALERG": [7,9,8],
-      "DESCRIPTION": "INCREMENTO DE 0,50€ POR LO QUE QUIERA AÑADIR"
+      "ALERG": [7,9,8]
+ 
+    },
+    {
+      "NAME": "INCREMENTO DE 0,50€ POR LO QUE QUIERA AÑADIR",
+      "PRICE": "",
+      "TYPE": "SANDWICHES",
+      "STYLE": "incremento"
+ 
+
+ 
+ 
+
     },
     {
       "NAME": "CALAMARES, CROQUETAS Y ENSALADA",
