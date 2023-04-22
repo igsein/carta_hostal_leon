@@ -1,6 +1,4 @@
 import React,{useEffect} from 'react'
-import Menu from './pages/Menu'
-import Home from './pages/Home'
 const App = () => {
 
   useEffect(() => {
@@ -9,7 +7,7 @@ const App = () => {
   }, [ ])
   
   return (
-    <div>{/* <Home /> */}</div>
+    <div></div>
   )
 }
 
